@@ -16,7 +16,7 @@ fun main() {
     }
 
     val aprovadosNaOrdem2 = sortedSetOf("Joao", "Maria", "Pedro", "Ana", "Joana")
-    println("\nSorted...")
+    println("\nSorted...") 
     for (aprovado in aprovados) {
         aprovado.print()
     }
